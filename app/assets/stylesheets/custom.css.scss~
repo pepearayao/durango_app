@@ -1,6 +1,6 @@
 @import "bootstrap";
 body { padding-top: 60px; }
-@import "bootstrap-responsive";
+
 
 /* Main marketing message and sign up button */
 .jumbotron {
@@ -61,8 +61,5 @@ margin-top: 15px;
 	color: #8e44ad;
 }
 .nosotroshead{
-	color: #d35400;
-}
-.nosotrosheadicon{
  	color: #34495e;
 }
