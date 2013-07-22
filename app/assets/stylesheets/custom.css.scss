@@ -1,0 +1,65 @@
+@import "bootstrap";
+body { padding-top: 60px; }
+@import "bootstrap-responsive";
+
+/* Main marketing message and sign up button */
+.jumbotron {
+margin: 10px 0;
+text-align: center;
+}
+.jumbotron h1 {
+font-size: 80px;
+line-height: 1;
+}
+.jumbotron .lead {
+font-size: 24px;
+line-height: 1.25;
+}
+.jumbotron .btn {
+font-size: 21px;
+padding: 14px 24px;
+}
+
+//Deja operativo solamente los iconos de Awesome Font
+[class^="icon-"], [class*=" icon-"]{
+    background:none;
+  }
+  
+.mktg{
+	margin: 10px;
+	padding-right: 25px;
+}
+  
+.us {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.usicon{
+margin: 10px;
+margin-top: 15px;
+}
+
+.ustext{
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: justify;
+  font-weight: normal;
+  color: #999;
+}
+
+.mision{
+	color: #16a085;
+}
+.vision{
+	color: #c0392b;
+}
+.funcion{
+	color: #8e44ad;
+}
+.nosotroshead{
+ 	color: #34495e;
+}

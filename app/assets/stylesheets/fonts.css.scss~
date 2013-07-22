@@ -1,0 +1,6 @@
+@font-face{
+    font-family: 'YoloFont';
+    src: font-url("YoloFont.otf") unquote("format('opentype')");
+    font-weight: normal;
+    font-style: normal;
+}
