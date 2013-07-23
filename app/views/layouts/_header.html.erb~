@@ -11,15 +11,21 @@
 				<ul class="nav">
 					<li class="active"><%= link_to "Home",    root_path %></li>
 					<li><%= link_to "Nosotros",   about_path %></li>
-					<li><%= link_to "App&Help&Faq",   contact_path %></li>
+					<li><%= link_to "App&Help&Faq",   help_path %></li>
 					<li><%= link_to "Contacto",   contact_path %></li>
 					<li><a href="#blog">Blog</a></li>
 				</ul>
 				<form class="navbar-form pull-right">
+					
+					<% if !user_signed_in? %>
 					<input class="span2" type="text" placeholder="Email">
 					<input class="span2" type="password" placeholder="Password">
 					<div class="btn-group">
 						<button type="submit" class="btn"><i class="icon-user"></i> Sign in</button>
+					<% else &>
+					<div class="btn-group">
+						<button type="submit" class="btn"><i class="icon-user"></i> Sign out</button>
+					<% end %>
 						<button class="btn dropdown-toggle" data-toggle="dropdown">
 							<span class="caret"></span>
 						</button>
