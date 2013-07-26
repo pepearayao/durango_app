@@ -1,0 +1,18 @@
+<% if user_signed_in? %>
+	Bienvenido <% current_user.email %>. No eres tu? <%= button_to "Salir", destroy_user_session_path, :method => :delete %>
+<% else %>					
+	<%= form_for("user", :url => user_session_path, :html => {:class => "navbar-form pull-right"}) do |f| %>
+	<%= f.text_field :email, :placeholder => "Email", :class => "span2" %>
+	<%= f.password_field :password, :placeholder => "Password", :class => "span2" %>
+	<div class="btn-group">
+		<%= button_tag(:type => 'submit', :class => 'btn') do %><i class="icon-user"></i> Entrar <% end %>
+		<button class="btn dropdown-toggle" data-toggle="dropdown">
+			<span class="caret"></span>
+	</button>
+		<ul class="dropdown-menu pull-right" role="menu" aria-labelledby="dLabel">
+		<li><%= link_to new_password_path('user'), :tabindex => '-1' do %><i class="icon-key"></i> Olvidaste tu clave?<% end %></li>
+		<li><a href="#signupmodal" tabindex="-2" data-toggle="modal"><i class="icon-ok-sign"></i> Registrate</a></li>
+		</ul>
+	</div>
+<% end %>
+<% end %>

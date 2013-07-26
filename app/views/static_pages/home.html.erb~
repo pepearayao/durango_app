@@ -1,4 +1,5 @@
 <% provide(:title, 'Home') %>
+<%= render 'layouts/signupform' %>
 
 <div id="main_area"> <!-- Slider -->
 	<div class="row">
@@ -6,7 +7,7 @@
 			<div class="row-fluid">
 				<div class="span8" id="carousel-bounding-box">
 					<div id="myCarousel" class="carousel slide"> <!-- Carousel items -->
-						<div class="carousel-inner hidden-phone">
+						<div class="carousel-inner">
 							<div class="active item" data-slide-number="0"><%= image_tag "verduras.jpg" %></div>
 							<div class="item" data-slide-number="1"><%= image_tag "gente.jpg" %></div>
 							<div class="item" data-slide-number="2"><%= image_tag "pasillo.jpg" %></div>
@@ -45,7 +46,7 @@
 		<div class="jumbotron">
         <h1>Compara tu Lista del Super!!</h1>
         <p class="lead">Comparando y compartiendo precios de los productos que más te gustan ayudas a que tu y otros ahorren en sus compras diarias del supermercado. <b>Aún estamos en construcción pero inscribete para saber cuando estemos funcionando.</b></p>
-        <a class="btn btn-large btn-success" href="#"></i>Empieza a Participar Hoy</a>
+        <a class="btn btn-primary btn-large btn-success" data-toggle="modal href="#signupmodal">Empieza a Participar Hoy</a>
 	</div>
 
 	<br />

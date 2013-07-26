@@ -1,0 +1,38 @@
+<div id="signupmodal" class="modal hide fade">
+    <div class="modal-header">
+            <button class="close" data-dismiss="modal">×</button>
+            <h3>Inscribete a la version Beta de ZapCove</h3>
+    </div>
+<div class="modal-body">
+    <div class="row-fluid">
+        <div class="span12">
+            <div class="span12">
+                <form class="form-horizontal">
+                    <%= form_for("user", :as => "user", :url => registration_path("user")) do |f| %>
+                    <p class="help-block">Mail</p>
+                    <div class="input-prepend">
+                        <span class="add-on">@</span><%= f.email_field :email, :autofocus => true %>
+                    </div>
+                    <p class="help-block">Contraseña</p>
+                    <div class="input-prepend">
+                        <span class="add-on">*</span><%= f.password_field :password %>
+                    </div>
+                    <p class="help-block">Confirma la Contraseña</p>
+                    <div class="input-prepend">
+                        <span class="add-on">**</span><%= f.password_field :password_confirmation %>
+                    </div>
+                    
+                  	<hr>
+                    <div class="help-block">
+                    	<%= button_tag(:type => 'submit', :class => 'btn btn-large btn-info') do %><i class="icon-rocket"></i> Inscribirse <% end %>
+                    <% end %>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="modal-footer">
+        <p><i>Julio 2013</i></p>
+    </div>
+</div>

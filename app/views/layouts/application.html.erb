@@ -12,8 +12,8 @@
 	<div class="container-fluid">
 		<% if notice %>
 			<p class="alert alert-notice"><%= notice %></p>
-		<& end %>
-		<& if alert &>
+		<% end %>
+		<% if alert %>
 			<p class="alert alert-error"><%= alert %></p>
 		<% end %>
 		<%= yield %>
