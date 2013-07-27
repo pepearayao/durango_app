@@ -18,22 +18,22 @@
 			<div class="span4" id="carousel-text"></div>
 				<div style="display: none;" id="slide-content" >
 					<div id="slide-content-0">
-						<h2 style="color:#34495e;">Ahorra y Comparte tu Lista del Supermercado</h2>
-						<p style="color:#34495e;"><i class="icon-money"></i> <b>Ahorras dinero</b>. Al hacer tu lista del super con nosotros obtienes los precios más bajos posibles.</p>
-						<p style="color:#34495e;"><i class="icon-time"></i> <b>Ahorras tiempo</b>. Haces tu lista de supermercado con nosotros y te enfocas en las cosas que realmente son importantes. </p>
-						<p style="color:#34495e;"><i class="icon-group"></i> <b>Actualiza los precios</b>. Al actualizar y compartir los precios de los articulos que te interesan, ayudas a que otros como tu también puedan ahorrar. Esta aplicación la hacemos todos.</p>
+						<h2>Ahorra y Comparte tu Lista del Supermercado</h2>
+						<p><i class="icon-money"></i> <b>Ahorras dinero</b>. Al hacer tu lista del super con nosotros obtienes los precios más bajos posibles.</p>
+						<p><i class="icon-time"></i> <b>Ahorras tiempo</b>. Haces tu lista de supermercado con nosotros y te enfocas en las cosas que realmente son importantes. </p>
+						<p><i class="icon-group"></i> <b>Actualiza los precios</b>. Al actualizar y compartir los precios de los articulos que te interesan, ayudas a que otros como tu también puedan ahorrar. Esta aplicación la hacemos todos.</p>
 					</div>
 					<div id="slide-content-1">
-						<h2 style="color:#34495e;">Arma y Consulta Precios OnLine</h2>
-						<p style="color:#34495e;"><i class="icon-desktop"></i> <b>Construye tu Lista</b>. Con nuestra aplicación web arma rapidamente tu lista del supermercado y averigua al instante donde te resulta más barato comprar.</p>
-						<p style="color:#34495e;"><i class="icon-mobile-phone"></i> <b>Consulta precios</b>. In situ en el supermercado puedes consultar por el producto más barato de una categoría para que no pierdas tiempo leyendo etiqueta por etiqueta.</p>
-						<p style="color:#34495e;"><i class="icon-plus-sign"></i> <b>Inscribete</b>. Registrate como usuario nuevo antes de la fecha de lanzamiento y obten beneficios extras y difunde la app.</p>
+						<h2>Arma y Consulta Precios OnLine</h2>
+						<p><i class="icon-desktop"></i> <b>Construye tu Lista</b>. Con nuestra aplicación web arma rapidamente tu lista del supermercado y averigua al instante donde te resulta más barato comprar.</p>
+						<p><i class="icon-mobile-phone"></i> <b>Consulta precios</b>. In situ en el supermercado puedes consultar por el producto más barato de una categoría para que no pierdas tiempo leyendo etiqueta por etiqueta.</p>
+						<p><i class="icon-plus-sign"></i> <b>Inscribete</b>. Registrate como usuario nuevo antes de la fecha de lanzamiento y obten beneficios extras y difunde la app.</p>
 					</div>
 					<div id="slide-content-2">
-						<h2 style="color:#34495e;">Estamos en Desarrollo y Contratando</h2>
-						<p style="color:#34495e;"><i class="icon-calendar"></i> <b>Trabajamos Rápido</b>. Estamos en desarrollo pero si quieres saber cuando estaremos operativos o quieres probar la aplicación pide una invitación.</p>
-						<p style="color:#34495e;"><i class="icon-terminal"></i> <b>Estamos reclutando</b>. Buscamos a los mejores diseñadores y programadores para que aporten a esta promisoria startup.</p>
-						<p style="color:#34495e;"><i class="icon-envelope"></i> <b>Inscribete como early adopter para obtener beneficios privilegiados y ayuda a difundir nuestra aplicación.</b></p>
+						<h2>Estamos en Desarrollo y Contratando</h2>
+						<p><i class="icon-calendar"></i> <b>Trabajamos Rápido</b>. Estamos en desarrollo pero si quieres saber cuando estaremos operativos o quieres probar la aplicación pide una invitación.</p>
+						<p><i class="icon-terminal"></i> <b>Estamos reclutando</b>. Buscamos a los mejores diseñadores y programadores para que aporten a esta promisoria startup.</p>
+						<p><i class="icon-envelope"></i> <b>Inscribete como early adopter para obtener beneficios privilegiados y ayuda a difundir nuestra aplicación.</b></p>
 					</div>
 				</div>
 			</div>
@@ -43,7 +43,7 @@
 	
 <div class="jumbotron">
     <h2 style="color:#2c3e50;">Tu lista del supermercado, ahora más barata. Estes donde estés.</h2>
-    <a class="btn btn-primary btn-large btn-success" data-toggle="modal" href="#signupmodal">Empieza a Participar Hoy</a>
+    <a class="btn btn-primary btn-large btn-success" data-toggle="modal" href="#signupmodal">Registrarse</a>
 </div>
 
 <br />
@@ -64,7 +64,7 @@
 	<div class="span4">
 		<i class="icon-group icon-4x pull-left mktg"></i>
 		<h2>&nbsp;Comparte</h2>
-		<p align="justify">Sacale una foto a tu cuenta final o a las etiquetas de los productos en las gondolas y ZapCove se encargará de actualizar los precios de forma automática.</p>
+		<p align="justify">Sacale una foto al detalle de tu cuenta final o a las etiquetas de los productos en las gondolas y ZapCove se encargará de actualizar los precios de forma automática.</p>
 	</div>
 	</div>
 </div>
