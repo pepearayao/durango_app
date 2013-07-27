@@ -15,7 +15,7 @@
 					<li><%= link_to "Contacto",   contact_path %></li>
 					<li><a href="#blog">Blog</a></li>
 				</ul>
-				<%= render 'layouts/session' %>
+				<%= render 'layouts/sessions' %>
 			</div>
 		</div>
 	</div>

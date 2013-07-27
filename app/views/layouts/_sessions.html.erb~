@@ -11,7 +11,7 @@
 	</button>
 		<ul class="dropdown-menu pull-right" role="menu" aria-labelledby="dLabel">
 		<li><%= link_to new_password_path('user'), :tabindex => '-1' do %><i class="icon-key"></i> Olvidaste tu clave?<% end %></li>
-		<li><%= link_to signupmodal, :tabindex => '-2', :data-toggle => 'modal' do %><i class="icon-ok-sign"></i> Registrate<% end %></li>
+		<li><a href="#signupmodal" tabindex="-2" data-toggle="modal"><i class="icon-ok-sign"></i> Registrate</a></li>
 		</ul>
 	</div>
 <% end %>

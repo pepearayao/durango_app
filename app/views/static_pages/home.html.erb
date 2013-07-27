@@ -1,106 +1,106 @@
 <% provide(:title, 'Home') %>
-<%= render 'layouts/signupform' %>
 
-<div id="main_area"> <!-- Slider -->
-	<div class="row">
-		<div class="span12" id="slider"> <!-- Top part of the slider -->
-			<div class="row-fluid">
-				<div class="span8" id="carousel-bounding-box">
-					<div id="myCarousel" class="carousel slide"> <!-- Carousel items -->
-						<div class="carousel-inner">
-							<div class="active item" data-slide-number="0"><%= image_tag "verduras.jpg" %></div>
-							<div class="item" data-slide-number="1"><%= image_tag "gente.jpg" %></div>
-							<div class="item" data-slide-number="2"><%= image_tag "pasillo.jpg" %></div>
-						</div> <!-- Carousel nav -->
-						<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-						<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-					</div>
+<div class="row">
+	<div class="span12" id="slider"> <!-- Top part of the slider -->
+		<div class="row-fluid">
+			<div class="span8" id="carousel-bounding-box">
+				<div id="myCarousel" class="carousel slide"> <!-- Carousel items -->
+					<div class="carousel-inner">
+						<div class="active item" data-slide-number="0"><%= image_tag "verduras.jpg" %></div>
+						<div class="item" data-slide-number="1"><%= image_tag "gente.jpg" %></div>
+						<div class="item" data-slide-number="2"><%= image_tag "pasillo.jpg" %></div>
+					</div> <!-- Carousel nav -->
+					<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+					<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 				</div>
-				
-				<div class="span4" id="carousel-text"></div>
-					<div style="display: none;" id="slide-content">
-						<div id="slide-content-0">
-							<h2>Ahorra y Comparte tu Lista del Supermercado</h2>
-							<p><i class="icon-money"></i> <b>Ahorras dinero</b>. Al hacer tu lista del super con nosotros obtienes los precios más bajos posibles.</p>
-							<p><i class="icon-time"></i> <b>Ahorras tiempo</b>. Haces tu lista de supermercado con nosotros y te enfocas en las cosas que realmente son importantes. </p>
-							<p><i class="icon-group"></i> <b>Actualiza los precios</b>. Al actualizar y compartir los precios de los articulos que te interesan, ayudas a que otros como tu también puedan ahorrar. Esta aplicación la hacemos todos.</p>
-						</div>
-						<div id="slide-content-1">
-							<h2>Arma y Consulta Precios OnLine</h2>
-							<p><i class="icon-desktop"></i> <b>Construye tu Lista</b>. Con nuestra aplicación web arma rapidamente tu lista del supermercado y averigua al instante donde te resulta más barato comprar.</p>
-							<p><i class="icon-mobile-phone"></i> <b>Consulta precios</b>. In situ en el supermercado puedes consultar por el producto más barato de una categoría para que no pierdas tiempo leyendo etiqueta por etiqueta.</p>
-							<p><i class="icon-plus-sign"></i> <b>Inscribete</b>. Registrate como usuario nuevo antes de la fecha de lanzamiento y obten beneficios extras y difunde la app.</p>
-						</div>
-						<div id="slide-content-2">
-							<h2>Estamos en Desarrollo y Contratando</h2>
-							<p><i class="icon-calendar"></i> <b>Trabajamos Rápido</b>. Estamos en desarrollo pero si quieres saber cuando estaremos operativos o quieres probar la aplicación pide una invitación.</p>
-							<p><i class="icon-terminal"></i> <b>Estamos reclutando</b>. Buscamos a los mejores diseñadores y programadores para que aporten a esta promisoria startup.</p>
-							<p><i class="icon-envelope"></i> <b>Inscribete como early adopter para obtener beneficios privilegiados y ayuda a difundir nuestra aplicación.</b></p>
-						</div>
+			</div>
+			
+			<div class="span4" id="carousel-text"></div>
+				<div style="display: none;" id="slide-content" >
+					<div id="slide-content-0">
+						<h2 style="color:#34495e;">Ahorra y Comparte tu Lista del Supermercado</h2>
+						<p style="color:#34495e;"><i class="icon-money"></i> <b>Ahorras dinero</b>. Al hacer tu lista del super con nosotros obtienes los precios más bajos posibles.</p>
+						<p style="color:#34495e;"><i class="icon-time"></i> <b>Ahorras tiempo</b>. Haces tu lista de supermercado con nosotros y te enfocas en las cosas que realmente son importantes. </p>
+						<p style="color:#34495e;"><i class="icon-group"></i> <b>Actualiza los precios</b>. Al actualizar y compartir los precios de los articulos que te interesan, ayudas a que otros como tu también puedan ahorrar. Esta aplicación la hacemos todos.</p>
+					</div>
+					<div id="slide-content-1">
+						<h2 style="color:#34495e;">Arma y Consulta Precios OnLine</h2>
+						<p style="color:#34495e;"><i class="icon-desktop"></i> <b>Construye tu Lista</b>. Con nuestra aplicación web arma rapidamente tu lista del supermercado y averigua al instante donde te resulta más barato comprar.</p>
+						<p style="color:#34495e;"><i class="icon-mobile-phone"></i> <b>Consulta precios</b>. In situ en el supermercado puedes consultar por el producto más barato de una categoría para que no pierdas tiempo leyendo etiqueta por etiqueta.</p>
+						<p style="color:#34495e;"><i class="icon-plus-sign"></i> <b>Inscribete</b>. Registrate como usuario nuevo antes de la fecha de lanzamiento y obten beneficios extras y difunde la app.</p>
+					</div>
+					<div id="slide-content-2">
+						<h2 style="color:#34495e;">Estamos en Desarrollo y Contratando</h2>
+						<p style="color:#34495e;"><i class="icon-calendar"></i> <b>Trabajamos Rápido</b>. Estamos en desarrollo pero si quieres saber cuando estaremos operativos o quieres probar la aplicación pide una invitación.</p>
+						<p style="color:#34495e;"><i class="icon-terminal"></i> <b>Estamos reclutando</b>. Buscamos a los mejores diseñadores y programadores para que aporten a esta promisoria startup.</p>
+						<p style="color:#34495e;"><i class="icon-envelope"></i> <b>Inscribete como early adopter para obtener beneficios privilegiados y ayuda a difundir nuestra aplicación.</b></p>
 					</div>
 				</div>
 			</div>
-		</div> <!--/Slider-->
-		
-		
-		<div class="jumbotron">
-        <h1>Compara tu Lista del Super!!</h1>
-        <p class="lead">Comparando y compartiendo precios de los productos que más te gustan ayudas a que tu y otros ahorren en sus compras diarias del supermercado. <b>Aún estamos en construcción pero inscribete para saber cuando estemos funcionando.</b></p>
-        <a class="btn btn-primary btn-large btn-success" data-toggle="modal" href="#signupmodal">Empieza a Participar Hoy</a>
-	</div>
-
-	<br />
-	<br />
-	<br />
-	
-	<div class="row">
-		<div class="span3 offset1">
-			<i class="icon-smile icon-4x pull-left mktg"></i>
-			<h2>Ahorra Plata</h2>
-			<p align="justify">Con nuestra App ahorras dinero al encontrar los productos de tu lista del super que más amas, en el lugar más conveniente. Según Sernac al mes de Mayo del 2013 existen diferencias de hasta 62% en los precios de abarrotes de forma individual entre supermercados, por lo que no deja de ser importante que te informes bien de como usar nuestro servicio. <b>Acuerdate de actualizar los precios!!</b></p>
 		</div>
-		<div class="span3 offset1">
-			<i class="icon-thumbs-up-alt icon-4x pull-left mktg"></i>
-			<h2>Uso Intuitivo</h2>
-			<p align="justify">Utilizar nuestra App es fácil y sencillo gracias a la interfaz de usuario amigable e intuitiva. Armas un carrito de compras indicanto los items de supermercado que más te gustan y la cantidad de lugares donde estás dispuesto a comprar (pueden ser 1 o más). Nosotros te entregamos un resultado con precios y lugar(es) donde tienes que ir. <b>No olvides actualizar precios!!</b></p>
-		</div>
-		<div class="span3 offset1">
-			<i class="icon-barcode icon-4x pull-left mktg"></i>
-			<h2>&nbsp;Versátil</h2>
-			<p align="justify">Puedes recurrir a nuestra App cuando tengas una conexión disponible. Puedes armar la lista del supermercado de forma rápida a través del PC o Smartphone y también puedes consultar precios de forma online en los mismos Supermercados para enterarte del precio si no está disponible o para saber en que pasillo queda si no hay nadie para ayudarte. <b>No olvides actualizar precios y ubicaciones!!</b> </p>
-		</div>
-	</div>
+	</div> <!--/Slider-->
 	
-
 	
-      
-      
+<div class="jumbotron">
+    <h2 style="color:#2c3e50;">Tu lista del supermercado, ahora más barata. Estes donde estés.</h2>
+    <a class="btn btn-primary btn-large btn-success" data-toggle="modal" href="#signupmodal">Empieza a Participar Hoy</a>
 </div>
+
+<br />
+
+
+<div class="row-fluid" style="color:#2c3e50;">
+	<div class="span10 offset1">
+	<div class="span4">
+		<i class="icon-list-ol icon-4x pull-left mktg"></i>
+		<h2>&nbsp;Arma tu Lista</h2>
+		<p align="justify">Al armar tu lista del supermercado con ZapCove, estarás ahorrando de forma inmediata. Agrega tus productos favoritos de forma fácil e intuitiva a la lista y en un Zap podrás ahorrar.</p>
+	</div>
+	<div class="span4">
+		<i class="icon-dollar icon-4x pull-left mktg"></i>
+		<h2>Ahorra</h2>
+		<p align="justify">Elige el lugar donde estás para que ZapCove te entregue una lista con los Supermercados más convenientes donde comprar sin que tengas que perder tiempo.</p>
+	</div>
+	<div class="span4">
+		<i class="icon-group icon-4x pull-left mktg"></i>
+		<h2>&nbsp;Comparte</h2>
+		<p align="justify">Sacale una foto al detalle de tu cuenta final o a las etiquetas de los productos en las gondolas y ZapCove se encargará de actualizar los precios de forma automática.</p>
+	</div>
+	</div>
+</div>
+
+<div class="jumbotron">
+<h2><span class="mision">ZapCove Ahorra.</span><span class="funcion"> ZapCove es Social.</span><span class="vision"> ZapCove eres Tu.</span></h2>
+</div>
+
+	
+      
 <script>
-  jQuery(document).ready(function($) {
- 
-        $('#myCarousel').carousel({
-                interval: 15000
-        });
- 
-        $('#carousel-text').html($('#slide-content-0').html());
- 
-        //Handles the carousel thumbnails
-        $('[id^=carousel-selector-]').click( function(){
-                var id_selector = $(this).attr("id");
-                var id = id_selector.substr(id_selector.length -1);
-                var id = parseInt(id);
-                $('#myCarousel').carousel(id);
-        });
- 
- 
-        // When the carousel slides, auto update the text
-        $('#myCarousel').on('slid', function (e) {
-                var id = $('.item.active').data('slide-number');
-                $('#carousel-text').html($('#slide-content-'+id).html());
-        });
- 
- 
-});
+	jQuery(document).ready(function($) {
+
+		$('#myCarousel').carousel({
+		        interval: 15000
+		});
+
+		$('#carousel-text').html($('#slide-content-0').html());
+
+		//Handles the carousel thumbnails
+		$('[id^=carousel-selector-]').click( function(){
+		        var id_selector = $(this).attr("id");
+		        var id = id_selector.substr(id_selector.length -1);
+		        var id = parseInt(id);
+		        $('#myCarousel').carousel(id);
+		});
+
+
+		// When the carousel slides, auto update the text
+		$('#myCarousel').on('slid', function (e) {
+		        var id = $('.item.active').data('slide-number');
+		        $('#carousel-text').html($('#slide-content-'+id).html());
+		});
+
+
+	});
+
 </script>
 

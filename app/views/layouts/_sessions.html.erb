@@ -2,7 +2,7 @@
 	Bienvenido <% current_user.email %>. No eres tu? <%= button_to "Salir", destroy_user_session_path, :method => :delete %>
 <% else %>					
 	<%= form_for("user", :url => user_session_path, :html => {:class => "navbar-form pull-right"}) do |f| %>
-	<%= f.text_field :email, :placeholder => "Email", :class => "span2" %>
+	<%= f.email_field :email, :placeholder => "Email", :class => "span2" %>
 	<%= f.password_field :password, :placeholder => "Password", :class => "span2" %>
 	<div class="btn-group">
 		<%= button_tag(:type => 'submit', :class => 'btn') do %><i class="icon-user"></i> Entrar <% end %>

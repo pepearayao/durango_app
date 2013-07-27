@@ -1,7 +1,7 @@
 <% provide(:title, 'Nosotros') %>
 
 <h1 class="us nosotroshead">Sobre Nosotros </h1>
-<div align="center"><%= image_tag "bar350ms.gif" %></div>
+<div align="center"><%= image_tag "bar250ms.gif" %></div>
 
 
 <br />
